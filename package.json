@@ -1,0 +1,50 @@
+{
+  "name": "aesthetic-pro",
+  "version": "1.0.0",
+  "description": "Simulador de procedimientos estéticos para nariz y labios",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev:setup": "node scripts/dev.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.0",
+    "@supabase/auth-helpers-react": "^0.4.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@tanstack/react-query": "^5.81.5",
+    "cloudinary": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "fabric": "^5.3.0",
+    "next": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.3.8",
+    "react-hot-toast": "^2.4.1",
+    "stripe": "^13.0.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^13.5.0"
+  },
+  "keywords": [
+    "aesthetic",
+    "simulation",
+    "nose",
+    "lips",
+    "cosmetic",
+    "surgery",
+    "medical",
+    "nextjs",
+    "react"
+  ],
+  "author": "AestheticPro Team",
+  "license": "MIT"
+}
